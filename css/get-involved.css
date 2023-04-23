@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    outline: none;
+  
+  }
+  
+  body{
+    background-image: url("../images/polar\ bear.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px;
+  
+    
+  }
+  
+  
+  header{
+    display: inline-block;
+    width: 100%;
+    padding: 25px 80px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /*transform: translate(-50%,-50%);*/
+    
+    position: relative;
+    box-shadow: 0px 4px 16px,rgba(0,0,0,0.5);
+   
+  }
+  .logo{
+    float:left;
+  }
+  
+  nav{
+    float: right;
+  }
+  
+  h1{
+  
+  font-size: 50px;
+  }
+  .green{
+  font-size: 50px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: #6aa40c;
+  }
+  
+  
+  nav ul li{
+    display: inline-block;
+    padding: 15px 25px;
+  
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+  
+  }
+  
+  nav ul li a:hover{
+    color: #6aa40c;
+  }
+  
+  .nav2{
+  display: none;
+  }
+  
+  
+  .greeting{
+  display: inline-block;
+  align-items: center;
+    width: 80%;
+    margin-top: 180px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 70px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 30px;
+   
+   
+  }
+  
+  
+  
+  .vision{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+  
+  }
+  
+  .vision h2{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .vision p {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  footer{
+    width: 100%;
+   
+    position: absolute;
+    background: linear-gradient(to right ,#141f14,#014500);
+  
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 15px;
+    line-height: 20px;
+    
+  }
+  
+  .row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .col{
+    flex-basis: 25%;
+    padding: 10px;
+  
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 20%;    
+  }
+  
+  .footerlogo{
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .motto{
+    font-size: 15px;
+  }
+  
+  .col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .footlist li{
+    list-style: none;
+    margin-bottom: 12px;
+  
+  }
+  
+  .fl a{
+    text-decoration: none;
+    color:#fff;
+  }
+  form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #6aa40c;
+    margin-bottom: 50px;
+  
+  }
+  
+  footer .fa-solid{
+    font-size: 18px;
+    margin-right: 10px;
+  
+  }
+  
+  form input{
+    width: 100%;
+    background: transparent;
+    color: #6aa40c;
+    border: 0;
+    outline: none;
+  
+  }
+  
+  form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  
+    
+  }
+  
+  form button .fa-solid{
+    font-size:16px;
+    color:#ccc;
+  }
+  .socialmedia .fa-brands{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+  
+  }
+  hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin: 20px auto;   
+  }
+  
+  .copyright{
+    text-align: center;
+  
+  }
+  /* media */
+  @media (max-width:1216px){
+  .nav1{
+    display: none;
+  }
+  .nav2{
+    display: block;
+    width: 100%;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    margin-top: 30px;
+  
+  }
+  
+  .nav2 ul li{
+    padding: 15px 0px;
+    width: 100%;
+  
+  
+  
+  }
+  footer{
+    bottom: unset;  
+  }
+  
+  .col{
+    flex-basis: 100%;
+    
+  
+  }
+  .col:nth-child(2), .col:nth-child(3){
+    flex-basis: 100%;    
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+
+
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('background6.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
